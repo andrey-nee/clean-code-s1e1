@@ -1,4 +1,17 @@
 /* Basic Style */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .body {
   background-color: #f8f8f8;
   color: #333;
@@ -71,6 +84,7 @@
   margin: 0;
   text-transform: uppercase;
 }
+.task__type_new,
 .task__type_input {
   margin: 0;
   font-size: 18px;
