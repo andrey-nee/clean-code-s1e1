@@ -162,5 +162,5 @@
 }
 
 .todo__list .todo-item.editMode .todo-item__task {
-  display:none;
+  display: none;
 }
